@@ -11,9 +11,6 @@ int main() {
     scanf("%d %d", &a, &b);
 
     printf("\nOriginal values: a = %d, b = %d\n", a, b);
-
-    
-    //  Method 1: Using a Temporary Variable
     
     temp = a;
     a = b;
@@ -53,3 +50,4 @@ int main() {
 
     return 0;
 }
+
